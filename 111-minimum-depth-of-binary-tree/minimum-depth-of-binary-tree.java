@@ -29,7 +29,10 @@ class Solution {
         {
             return 1+l;
         }
-        
+        if(root.right==null&&root.left==null)
+        {
+            return 1;
+        }
         System.out.print(l);
         return Math.min(l,r)+1;
 
